@@ -1,10 +1,11 @@
-package gameplay;
+package solver;
 
 import processing.core.PApplet;
 
-public class SudokuGame extends PApplet {
+public class SolverMain extends PApplet {
+
     public static void main(String[] args) {
-        PApplet.main(SudokuGame.class, args);
+        PApplet.main(SolverMain.class, args);
     }
 
     @Override
@@ -19,6 +20,6 @@ public class SudokuGame extends PApplet {
 
     @Override
     public void draw() {
-        background(0xff6f00aa);
+        background(0xff000000);
     }
 }
